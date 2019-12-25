@@ -1,0 +1,102 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+
+<body class="animsition">
+
+<!-- Product Detail -->
+
+<div class="container bgwhite p-t-35 p-b-80">
+    <div class="flex-w flex-sb">
+        <div class="w-size13 p-t-30 respon5">
+            <div class="wrap-slick3 flex-sb flex-w">
+                <div class="wrap-slick3-dots"></div>
+
+                <div class="slick3">
+                    <div class="item-slick3" data-thumb="images/thumb-item-01.jpg">
+
+
+                        <div class="wrap-pic-w">
+                            <img src="{{ asset('uploads/images/' ~  immobilier1.image) }}" alt="IMG-PRODUCT" height="500">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w-size14 p-t-30 respon5">
+            <h4 class="m-text16 m-text14 p-b-7">
+                {{ immobilier1.title }}
+            </h4>
+
+            <span class="m-text17">
+					{{ immobilier1.price }} dt
+				</span>
+
+            <p class="s-text8 p-t-10">
+                {{ immobilier1.description }}
+            </p>
+
+            <!--  -->
+            <div class="p-t-33 p-b-60">
+                <div class="flex-m flex-w p-b-10">
+                    <div class="s-text15 w-size15 t-center" style="color: #B35047">
+                        chambres
+                    </div>
+
+                    <div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16">
+                         {{ immobilier1.rooms }}
+                    </div>
+                </div>
+
+                <div class="flex-m flex-w">
+                    <div class="s-text15 w-size15 t-center" style="color:chocolate">
+
+                        chambres a coucher
+                    </div>
+
+                    <div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16" >
+                        {{ immobilier1.bedrooms }}
+                    </div>
+                </div>
+            </div>
+            <div class="p-b-45">
+                <span class="s-text8 m-r-35">adresse: {{ immobilier1.adress }}</span>
+                <span class="s-text8">ville: {{ immobilier1.city }}</span>
+
+            </div>
+            <button class="btn btn-primary"> Contacter l'annonceur</button>
+
+            <div id="contact" class="mt-4">
+                {{ form_start(form) }}
+                <div class="row">
+                    <div class="col">{{ form_row(form.firstname) }}</div>
+                    <div class="col">{{ form_row(form.lastname) }}</div>
+                </div>
+                <div class="row">
+                    <div class="col">{{ form_row(form.phone) }}</div>
+                    <div class="col">{{ form_row(form.email) }} </div>
+                </div>
+                {{ form_rest(form) }}
+                <div class="form-group">
+                    <button class="btn btn-primary">
+                        envoyer
+                    </button>
+                </div>
+                {{ form_end(form) }}
+
+
+            </div>
+
+
+
+    </div>
+
+</div>
+</div>
+
+</body>
+{% endblock %}
