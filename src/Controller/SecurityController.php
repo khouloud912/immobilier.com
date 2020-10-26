@@ -12,6 +12,8 @@ class SecurityController extends AbstractController
     /**
      * @Route("/connexion", name="app_login")
      */
+
+    // cette fonction permet a un utilisateur d'authentifiee, elle affiche la page d'authentification
     public function login(AuthenticationUtils $authenticationUtils): Response
     {
         // if ($this->getUser()) {
@@ -29,6 +31,8 @@ class SecurityController extends AbstractController
     /**
      * @Route("/logout", name="app_logout")
      */
+
+    // cette fonction permet de deconnecter un utilisateur
     public function logout()
     {
         throw new \Exception('This method can be blank - it will be intercepted by the logout key on your firewall');

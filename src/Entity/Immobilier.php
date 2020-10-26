@@ -73,6 +73,15 @@ class Immobilier
     private $email;
 
     /**
+     * @ORM\Column(type="integer")
+     */
+    private $idUser;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $etat;
+    /**
      * Immobilier constructor.
      */
     public function __construct()
@@ -219,5 +228,31 @@ class Immobilier
 
         return $this;
     }
+
+    public function getIdUser(): ?int
+    {
+        return $this->idUser;
+    }
+
+    public function setIdUser(int $idUser): self
+    {
+        $this->idUser = $idUser;
+
+        return $this;
+    }
+
+    public function getEtat(): ?string
+    {
+        return $this->etat;
+    }
+
+    public function setEtat(string $etat): self
+    {
+        $this->etat = $etat;
+
+        return $this;
+    }
+
+
 
 }

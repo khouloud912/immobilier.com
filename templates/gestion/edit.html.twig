@@ -1,0 +1,13 @@
+{#cette page permet d'afficher le formulaire d'une annonce pour le modifier#}
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<br>
+    <div class="container mt-4">
+        <h2 style=" text-align:center;font-family: Calibri;">Editer l'annonce </h2>
+        <br>
+        {{   include ('form/form.html.twig',{form :form ,  button:'Editer'})}}
+    </div>
+
+{% endblock %}

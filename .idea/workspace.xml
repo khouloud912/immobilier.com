@@ -1,7 +1,343 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40bf5d05-4aa2-4808-87d6-44465d220213" name="Default Changelist" comment="" />
+    <list default="true" id="40bf5d05-4aa2-4808-87d6-44465d220213" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css1/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css1/font-face.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css1/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-900italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/bg-title-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/bg-title-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/Untitled-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/avatar-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/avatar-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/avatar-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/avatar-big-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/logo-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/logo-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images1/icon/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js1/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js1/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/9606031aabebde32fa96edeff071a132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/animsition/animsition.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/animsition/animsition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/bootstrap-4.1/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/bootstrap-4.1/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/bootstrap-4.1/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/bootstrap-progressbar/bootstrap-progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/chartjs/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/circle-progress/circle-progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/circle-progress/circle-progress.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/countdown/countdowntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/countdown/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/countdown/moment-timezone-with-data.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/countdown/moment-timezone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/countdown/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/counter-up/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/counter-up/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/counter-up/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-4.7/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/font-awesome-5/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/CHANGELOG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/CONTRIBUTING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/fullcalendar.print.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/gcal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/gcal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/lib/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ar-dz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ar-kw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ar-ly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/de-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/en-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/es-do.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/es-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ms-my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/nl-be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/zh-hk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/fullcalendar-3.10.0/locale/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/js/lightbox-plus-jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/js/lightbox-plus-jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/js/lightbox-plus-jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/js/lightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/dist/js/lightbox.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/src/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/src/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/src/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/src/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/src/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/lightbox2/src/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/mdi-font/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/mdi-font/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/mdi-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/mdi-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/mdi-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/mdi-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/mdi-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/perfect-scrollbar/perfect-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/progressbar/progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/progressbar/progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/slick-theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/slick-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/slick.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/slick/slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/smk-accordion/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/smk-accordion/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/smk-accordion/accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.brazil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.france.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.germany.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.russia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/vector-map/jqvmap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/wow/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor1/wow/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/administration.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/annonces.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gestion/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gestion/gestion.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/immobilier1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/immobilier1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ImmeubleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ImmeubleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Immobilier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Immobilier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ImmobilierSearchType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ImmobilierSearchType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ImmobilierType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ImmobilierType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Notification/NotificationContact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notification/NotificationContact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ImmobilierRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ImmobilierRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/emails/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/emails/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form/form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form/form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/immeuble/affiche.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/immeuble/affiche.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/immeuble/details.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/immeuble/details.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/immeuble/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/immeuble/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +367,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/emails/contact.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/administration.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/admin/annonces.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env.test">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#34#99#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ImmeubleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="49" column="64" lean-forward="true" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+            <state relative-caret-position="1394">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="e#33#65#0#PHP" expanded="true" />
               </folding>
@@ -42,50 +444,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Repository/ImmobilierRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/immeuble/affiche.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="94" column="48" lean-forward="true" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/form/form.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/ImmobilierSearch.php">
+        <entry file="file://$PROJECT_DIR$/templates/registration/register.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#29#77#0#PHP" expanded="true" />
-              </folding>
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/ImmobilierSearchType.php">
+        <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="17">
+              <caret line="1" column="122" selection-start-line="1" selection-start-column="122" selection-end-line="1" selection-end-column="122" />
             </state>
           </provider>
         </entry>
@@ -101,18 +473,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>selection</find>
-      <find>topbar-language rs1-select2</find>
-      <find>topb</find>
-      <find>sale-noti</find>
-      <find>item-menu-mobile</find>
-      <find>topbar-child2</find>
-      <find>main_menu</find>
-      <find>webkit-flex</find>
-      <find>wrap_menu</find>
-      <find>menu</find>
-      <find>sale</find>
-      <find>slide</find>
       <find>anims</find>
       <find>slide1</find>
       <find>caption2-slide1</find>
@@ -131,6 +491,18 @@
       <find>product-</find>
       <find>size</find>
       <find>stream_s</find>
+      <find>invalid</find>
+      <find>App\Security\UserAuthenticator</find>
+      <find>cool</find>
+      <find>john</find>
+      <find>data</find>
+      <find>uti</find>
+      <find>dump</find>
+      <find>{</find>
+      <find>user</find>
+      <find>av</find>
+      <find>f</find>
+      <find>avatar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,7 +511,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Controller/PropertyController.php" />
         <option value="$PROJECT_DIR$/src/Controller/LocationController.php" />
         <option value="$PROJECT_DIR$/templates/location/index.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
@@ -147,42 +518,50 @@
         <option value="$PROJECT_DIR$/public/css/main.min.css" />
         <option value="$PROJECT_DIR$/src/Form/RegistrationType.php" />
         <option value="$PROJECT_DIR$/templates/security/registration.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/User.php" />
-        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/config/routes.yaml" />
         <option value="$PROJECT_DIR$/src/Security/LoginAuthAuthenticator.php" />
-        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/src/Security/UserAuthenticator.php" />
-        <option value="$PROJECT_DIR$/templates/registration/register.html.twig" />
-        <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
         <option value="$PROJECT_DIR$/templates/immeuble/immeuble.html.twig" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
-        <option value="$PROJECT_DIR$/src/Controller/RegistrationController.php" />
         <option value="$PROJECT_DIR$/templates/immeuble/show.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/ImmobilierDetailsController.php" />
         <option value="$PROJECT_DIR$/templates/immobilier_details/details.html.twig" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/Immobilier.php" />
-        <option value="$PROJECT_DIR$/templates/home/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/src/Entity/contact.php" />
         <option value="$PROJECT_DIR$/src/Entity/Contact.php" />
         <option value="$PROJECT_DIR$/src/Form/RegistrationFormType.php" />
         <option value="$PROJECT_DIR$/src/Form/ContactType.php" />
-        <option value="$PROJECT_DIR$/src/Form/ImmobilierType.php" />
-        <option value="$PROJECT_DIR$/templates/immeuble/new.html.twig" />
-        <option value="$PROJECT_DIR$/templates/form/form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/emails/contact.html.twig" />
         <option value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/templates/immeuble/details.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/swiftmailer.yaml" />
-        <option value="$PROJECT_DIR$/src/Notification/NotificationContact.php" />
-        <option value="$PROJECT_DIR$/templates/immeuble/affiche.html.twig" />
-        <option value="$PROJECT_DIR$/src/Form/ImmobilierSearchType.php" />
         <option value="$PROJECT_DIR$/src/Entity/ImmobilierSearch.php" />
-        <option value="$PROJECT_DIR$/src/Controller/ImmeubleController.php" />
+        <option value="$PROJECT_DIR$/src/Form/ImmobilierSearchType.php" />
+        <option value="$PROJECT_DIR$/src/Security/UserAuthenticator.php" />
+        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/src/Form/ImmobilierType.php" />
+        <option value="$PROJECT_DIR$/templates/administration.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/Immobilier.php" />
         <option value="$PROJECT_DIR$/src/Repository/ImmobilierRepository.php" />
+        <option value="$PROJECT_DIR$/templates/admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/admin/annonces.html.twig" />
+        <option value="$PROJECT_DIR$/templates/admin/administration.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/RegistrationController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/AdminController.php" />
+        <option value="$PROJECT_DIR$/src/Notification/NotificationContact.php" />
+        <option value="$PROJECT_DIR$/templates/registration/register.html.twig" />
+        <option value="$PROJECT_DIR$/templates/immeuble/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/gestion/gestion.html.twig" />
+        <option value="$PROJECT_DIR$/templates/gestion/edit.html.twig" />
+        <option value="$PROJECT_DIR$/templates/form/form.html.twig" />
+        <option value="$PROJECT_DIR$/templates/emails/contact.html.twig" />
+        <option value="$PROJECT_DIR$/templates/home/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/immeuble/details.html.twig" />
+        <option value="$PROJECT_DIR$/templates/immeuble/affiche.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/ImmeubleController.php" />
       </list>
     </option>
   </component>
@@ -311,12 +690,25 @@
       <path value="$PROJECT_DIR$/vendor/symfony/google-mailer" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/geocoder" />
+      <path value="$PROJECT_DIR$/vendor/geocoder-php/common-http" />
+      <path value="$PROJECT_DIR$/vendor/geocoder-php/google-maps-provider" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="709" />
-    <option name="y" value="27" />
-    <option name="width" value="645" />
+    <option name="x" value="611" />
+    <option name="width" value="739" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -325,6 +717,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -335,17 +728,25 @@
             <path>
               <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
               <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
               <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Notification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
@@ -356,7 +757,19 @@
             <path>
               <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
               <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
@@ -385,46 +798,40 @@
             <path>
               <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
               <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
               <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
-              <item name="var" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="immobilier1" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="immobilier1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Agence" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\immobilier1\public" />
       <recent name="C:\xampp\htdocs\immobilier1\src\Form" />
       <recent name="C:\xampp\htdocs\immobilier1\src\Controller" />
       <recent name="C:\xampp\htdocs\immobilier1\vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\immobilier1\templates\admin" />
       <recent name="C:\xampp\htdocs\immobilier1\templates\immeuble" />
       <recent name="C:\xampp\htdocs\immobilier1\templates\registration" />
       <recent name="C:\xampp\htdocs\immobilier1\public" />
@@ -479,19 +886,84 @@
       <workItem from="1577282229558" duration="3388000" />
       <workItem from="1577286269560" duration="207000" />
       <workItem from="1577286503582" duration="87000" />
-      <workItem from="1577287371218" duration="2983000" />
+      <workItem from="1577287371218" duration="9833000" />
+      <workItem from="1577370724050" duration="599000" />
+      <workItem from="1577572954460" duration="1650000" />
+      <workItem from="1577612244152" duration="234000" />
+      <workItem from="1577617938758" duration="615000" />
+      <workItem from="1577625043172" duration="453000" />
+      <workItem from="1578167051212" duration="908000" />
+      <workItem from="1578168980814" duration="8857000" />
+      <workItem from="1578218098027" duration="8910000" />
+      <workItem from="1578227823905" duration="791000" />
+      <workItem from="1578228677234" duration="14688000" />
+      <workItem from="1578254980680" duration="5355000" />
+      <workItem from="1578261188245" duration="5618000" />
+      <workItem from="1578292083063" duration="1678000" />
+      <workItem from="1578308466218" duration="5693000" />
+      <workItem from="1578340469118" duration="598000" />
+      <workItem from="1578387095707" duration="598000" />
+      <workItem from="1578599511702" duration="6000" />
+      <workItem from="1578642863203" duration="3000" />
+      <workItem from="1578643400753" duration="22000" />
+      <workItem from="1578690193409" duration="598000" />
+      <workItem from="1579176017490" duration="598000" />
+      <workItem from="1579808488182" duration="122000" />
+      <workItem from="1580741987765" duration="4000" />
+      <workItem from="1580925401328" duration="1003000" />
+      <workItem from="1580929892181" duration="525000" />
+      <workItem from="1580930491904" duration="15000" />
+      <workItem from="1580930561563" duration="14000" />
+      <workItem from="1580930733051" duration="27000" />
+      <workItem from="1580930873074" duration="3805000" />
+      <workItem from="1581018655839" duration="664000" />
+      <workItem from="1581020868872" duration="628000" />
+      <workItem from="1581078837532" duration="7521000" />
+      <workItem from="1581168368849" duration="18706000" />
+      <workItem from="1581280467343" duration="748000" />
+      <workItem from="1581284510765" duration="670000" />
+      <workItem from="1581287570956" duration="1315000" />
+      <workItem from="1581334947548" duration="25200000" />
+      <workItem from="1581404110678" duration="602000" />
+      <workItem from="1581433260517" duration="23000" />
+      <workItem from="1581455527139" duration="4191000" />
+      <workItem from="1581579113713" duration="1055000" />
+      <workItem from="1581753461335" duration="9010000" />
+      <workItem from="1581785642116" duration="1487000" />
+      <workItem from="1581835844887" duration="250000" />
+      <workItem from="1581879645943" duration="594000" />
+      <workItem from="1581938534958" duration="10000" />
+      <workItem from="1581940098621" duration="58000" />
+      <workItem from="1581940280850" duration="1689000" />
+      <workItem from="1583361161405" duration="1733000" />
+      <workItem from="1584475755790" duration="598000" />
+      <workItem from="1586372944712" duration="19000" />
+      <workItem from="1586386255389" duration="4000" />
+      <workItem from="1591599592586" duration="1552000" />
+      <workItem from="1591601178401" duration="1791000" />
+      <workItem from="1591603016724" duration="1806000" />
+      <workItem from="1591604936040" duration="1785000" />
+      <workItem from="1591606817636" duration="1867000" />
+      <workItem from="1591608920422" duration="599000" />
+      <workItem from="1592259298027" duration="10000" />
+      <workItem from="1592430638631" duration="396000" />
+      <workItem from="1592482716684" duration="708000" />
+      <workItem from="1592520177652" duration="58000" />
+      <workItem from="1592581297717" duration="599000" />
+      <workItem from="1592696670843" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169336000" />
+    <option name="totallyTimeSpent" value="328123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8321678" visible="true" weight="0.2246596" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8321678" visible="true" weight="0.2881997" />
       <window_info id="Structure" order="1" sideWeight="0.16783217" side_tool="true" weight="0.15885022" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282313" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -502,7 +974,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.40136054" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.42857143" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.17176871" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -510,9 +982,10 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8321678" visible="true" weight="0.2246596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8321678" visible="true" weight="0.16187595" />
       <window_info id="Structure" order="1" sideWeight="0.16783217" side_tool="true" weight="0.15885022" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282313" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -523,7 +996,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.05102041" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.088435374" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.17176871" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -535,178 +1008,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/RegistrationType.php" />
-    <entry file="file://$PROJECT_DIR$/var/log/dev.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="68" column="137" selection-start-line="68" selection-start-column="109" selection-end-line="68" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Utilisateur.php" />
-    <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/security/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/security-core/Encoder/PlaintextPasswordEncoder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/UserAuthenticator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-          <folding>
-            <element signature="e#3627#3633#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="5" selection-start-column="3" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#34#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/immeuble/show.html.twig" />
-    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ImmobilierDetailsController.php" />
-    <entry file="file://$PROJECT_DIR$/config/packages/webpack_encore.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/fonts/ionicons-2.0.1/builder/build_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/assets.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="77" lean-forward="true" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/fonts/ionicons-2.0.1/builder/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-          <folding>
-            <element signature="e#4908#4912#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#34#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/RegistrationFormType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -718,57 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="86" column="84" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Immobilier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/ImmobilierType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#28#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/immeuble/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/ContactType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -786,48 +1036,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/emails/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="144" column="37" lean-forward="true" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Notification/NotificationContact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-          <folding>
-            <element signature="e#35#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/immeuble/details.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/ImmobilierSearchType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -840,42 +1052,325 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/ImmobilierSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
           <folding>
             <element signature="e#29#77#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/immeuble/affiche.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Form/ImmobilierSearchType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="e#28#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="94" column="48" lean-forward="true" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/dev/web_profiler.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/ContactType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#28#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css1/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images1/icon/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/ImmobilierType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#28#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600.woff2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images1/icon/avatar-04.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/images1/icon/avatar-06.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200italic.eot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-100.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-200italic.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fonts1/poppins/poppins-v5-latin-600.woff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/ImmobilierRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Security/UserAuthenticator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Notification/NotificationContact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="e#35#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gestion/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" selection-start-column="75" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gestion/gestion.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Immobilier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#34#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#34#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#34#54#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/form/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/immeuble/affiche.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/immeuble/details.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/immeuble/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/emails/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/administration.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#99#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ImmeubleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="49" column="64" lean-forward="true" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+        <state relative-caret-position="1394">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="e#33#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/ImmobilierRepository.php">
+    <entry file="file://$PROJECT_DIR$/templates/registration/register.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="340">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="122" selection-start-line="1" selection-start-column="122" selection-end-line="1" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/annonces.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
         </state>
       </provider>
     </entry>

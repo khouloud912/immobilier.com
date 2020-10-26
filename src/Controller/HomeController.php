@@ -16,12 +16,14 @@ class HomeController extends AbstractController
     /**
      * @Route("/", name="home")
      */
+
+    // cette fonction retourne la page initiale de notre projet qui est home page avec les 4 derniere immobilier publié filtre par date
     public function index(ImmobilierRepository $repository):Response
     {
         $this->repository=$repository;
         $user = $this->getUser();
-       // var_dump($user->getId());
        $immobiliers = $this->repository->findByLatest();
+
 
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',

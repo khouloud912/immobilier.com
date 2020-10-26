@@ -1,0 +1,48 @@
+{#cette page permet de gerer toutes les annonces immobilieres liee /ajouter par un utilisateur#}
+{% extends 'base.html.twig' %}
+{% block title 'gerer les immobiliers ' %}
+
+{% block body %}
+    <br>
+    <div class="container mt-6">
+
+        <h1 style="  text-align:center; font-family: Arial, Helvetica, sans-serif;">gerer les immobiliers  </h1>
+        <br>
+
+        {% for message in app.flashes('succes') %}
+            <div class="alert alert-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>titre</th>
+                <th>Action</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for immobilier in immobiliers  %}
+                <tr>
+                    <td>{{ immobilier.title }}</td>
+                    <td>
+                        <a href="{{ path('gerer_edit', {id: immobilier.id}) }}" class="btn btn-secondary" type="button">editer</a>
+                        <form method="post" action="{{ path('gerer_delete',{id:immobilier.id}) }}" style="display: inline-block" >
+
+                            <button class="btn btn-danger">supprimer</button>
+                        </form>
+                    </td>
+                </tr>
+
+            {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+{% endblock %}

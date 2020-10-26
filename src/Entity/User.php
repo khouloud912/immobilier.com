@@ -51,7 +51,6 @@ class User implements UserInterface
 
         return $this;
     }
-
     /**
      * A visual identifier that represents this user.
      *
@@ -102,6 +101,7 @@ class User implements UserInterface
     public function getSalt()
     {
         // not needed when using the "bcrypt" algorithm in security.yaml
+        return null;
     }
 
     /**
@@ -112,4 +112,12 @@ class User implements UserInterface
         // If you store any temporary, sensitive data on the user, clear it here
         // $this->plainPassword = null;
     }
+
+    /**
+     * String representation of object
+     * @link https://php.net/manual/en/serializable.serialize.php
+     * @return string the string representation of the object or null
+     * @since 5.1.0
+     */
+
 }

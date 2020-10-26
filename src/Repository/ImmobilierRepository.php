@@ -3,8 +3,10 @@
 namespace App\Repository;
 
 use App\Entity\Immobilier;
+use App\Entity\ImmobilierSearch;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\ORM\Query;
 use Doctrine\ORM\QueryBuilder;
 
 /**
@@ -20,13 +22,31 @@ class ImmobilierRepository extends ServiceEntityRepository
         parent::__construct($registry, Immobilier::class);
     }
 
+    /*
+     * @return Query
+     */
 
 
+    public function findAllVisible($search){
+        $query = $this->createQueryBuilder('p');
+
+        if($search->getMaxPrice()){
+            $query= $query->
+            andwhere('p.price < = :maxprice')
+                ->setParameter('maxprice',$search->getMaxPrice());
+        }
+        if($search->getMinSurface()){
+            $query= $query->
+            andwhere('p.surface > = :minsurface')
+                ->setParameter('minsurface',$search->getMinSurface());
+        }
+        return $query->getQuery()->getResult();
+    }
 
     public function findAllVisibleQuery(){
         return $this->createQueryBuilder('p')
-            ->setMaxResults(4)
-            ->getQuery();
+            ->getQuery()
+            ->getResult();
 
     }
         /**
@@ -35,10 +55,43 @@ class ImmobilierRepository extends ServiceEntityRepository
     public function findByLatest():array {
         return $this->createQueryBuilder('p')
             ->setMaxResults(4)
+            ->orderBy('p.id', 'DESC')
             ->getQuery()
             ->getResult();
 
     }
+
+    public function findimmobilier($userID):array {
+        return $this->createQueryBuilder('p')
+            ->andWhere('p.idUser = :val')
+            ->setParameter('val', $userID)
+            ->orderBy('p.id', 'ASC')
+            ->getQuery()
+            ->getResult()
+            ;
+
+    }
+
+    public function findvisibleQuery():QueryBuilder{
+        return $this ->createQueryBuilder('p');
+    }
+    public function findbyetat($etat):array{
+        return $this->createQueryBuilder('p')
+            ->andWhere('p.etat = :val')
+            ->setParameter('val', $etat)
+            ->orderBy('p.created_at', 'ASC')
+            ->getQuery()
+            ->getResult()
+            ;
+
+
+    }
+
+
+
+
+
+
 
     // /**
     //  * @return Immobilier[] Returns an array of Immobilier objects

@@ -17,7 +17,8 @@ class NotificationContact{
         $this->renderer=$renderer;
     }
 
-    public function notify(Contact $contact){  //ta3mel description ala eli amer el formulaire
+    //cette fonction permet a un utilisateur d'envoyer un email a l'administrateur (dans un cas avances , les emails seront envoyer a l'annonceur)
+    public function notify(Contact $contact){
 
         $x=$contact->getImmobilier()->getEmail();
 
@@ -26,9 +27,20 @@ class NotificationContact{
             ->setTo($contact->getImmobilier()->getEmail())//
             ->setReplyTo($contact->getEmail())//$contact->getEmail()
             ->setBody(
-                $this->renderer->render('emails/contact.html.twig',[
-                    'contact'=>$contact
-                ]),'text/html');
+                '<html>' .
+                ' <body>' .
+                'bonjour je suis  '.
+                $contact->getFirstname().
+                ' '.
+                $contact->getLastname().
+                'je peut vous contacter sur votre annonce  '.
+                $contact->getImmobilier()->getTitle().
+                'vous pouvez repondre sur ce mail'.
+                '  '.
+                $contact->getEmail().
+                ' </body>' .
+               '</html>','text/html');
+
 
        $this->mailer->send($message);
     }

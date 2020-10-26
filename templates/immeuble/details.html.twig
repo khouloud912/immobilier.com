@@ -1,3 +1,5 @@
+{#cette page permet de d'afficher les details d'une annonce avec la possibilite d'envoie d'un email au cas ou l'utilisateur est authentifie#}
+
 {% extends 'base.html.twig' %}
 
 {% block title %}{% endblock %}
@@ -68,28 +70,35 @@
                 <span class="s-text8">ville: {{ immobilier1.city }}</span>
 
             </div>
-            <button class="btn btn-primary"> Contacter l'annonceur</button>
 
-            <div id="contact" class="mt-4">
-                {{ form_start(form) }}
-                <div class="row">
-                    <div class="col">{{ form_row(form.firstname) }}</div>
-                    <div class="col">{{ form_row(form.lastname) }}</div>
-                </div>
-                <div class="row">
-                    <div class="col">{{ form_row(form.phone) }}</div>
-                    <div class="col">{{ form_row(form.email) }} </div>
-                </div>
-                {{ form_rest(form) }}
-                <div class="form-group">
-                    <button class="btn btn-primary">
-                        envoyer
-                    </button>
-                </div>
-                {{ form_end(form) }}
+            {#si l'utilisateur est authentifie , il peut envoyer un email#}
+
+            {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                <h3 style="font-family: Arial, Helvetica, sans-serif; color: #B35047; text-align: center" >Contacter l'annonceur</h3>
+                <div id="contact" class="mt-4">
+                    {{ form_start(form) }}
+                    <div class="row">
+                        <div class="col">{{ form_row(form.firstname) }}</div>
+                        <div class="col">{{ form_row(form.lastname) }}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">{{ form_row(form.phone) }}</div>
+                        <div class="col">{{ form_row(form.email) }} </div>
+                    </div>
+                    {{ form_rest(form) }}
+                    <div class="form-group">
+                        <button class="btn btn-primary">
+                            envoyer
+                        </button>
+                    </div>
+                    {{ form_end(form) }}
 
 
-            </div>
+                </div>
+
+            {% endif %}
+
+
 
 
 

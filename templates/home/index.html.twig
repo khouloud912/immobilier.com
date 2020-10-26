@@ -1,6 +1,9 @@
+
 {% extends 'base.html.twig' %}
 
 {% block title %}Hello HomeController!{% endblock %}
+{#c'est la page initiale de projet qui permet de retourner les 4 dernieres immobiliers#}
+
 
 {% block body %}
 <body class="animsition">
@@ -23,10 +26,12 @@
             <div class="row flex">
                 {% for immobilier in immobiliers %}
                 <div class="col-3">
-                    <div class="card">
-                        <img src="{{ asset('uploads/images/' ~  immobilier.image) }}"  class="card-img-top" alt="...">
+
+                    <div class="card" >
+                        <img src="{{ asset('uploads/images/' ~  immobilier.image) }}"  class="card-img-top" alt="..." style=" height: 250px; width:auto;">
                         <div class="card-body">
                             <h5 class="card-title">
+                                 {#au cas de click sur une annonce , une redirection a la page de details sera etabli#}
                                 <a href="{{ path('details_Immeuble',{id: immobilier.id , slug: immobilier.slug}) }}">{{ immobilier.title }}</a>
                             </h5>
                             <p class="card-text">{{ immobilier.city }} ({{ immobilier.adress }})</p>

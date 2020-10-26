@@ -1,3 +1,5 @@
+{# cette twig permet d'afficher tous les immobiliers avec quelques details et permet aussi de filtrer les annonces avec le minimum de surface et le maximum de prix#}
+
 {% extends 'base.html.twig' %}
 
 {% block title %}Hello HomeController!{% endblock %}
@@ -14,8 +16,6 @@
             La maison de Réve
         </p>
     </section>
-
-
     <!-- Content page -->
     <section class="bgwhite p-t-55 p-b-65">
         <div class="container">
@@ -53,7 +53,7 @@
                         <h4 class="m-text14 p-b-16">
                             Filters
                         </h4>
-
+                       {# ce block permet le filtrage des annonces avec le maximum de prix et le minimum de surface#}
                         <div class="filter-price p-t-22 p-b-50 bo3">
                             <div class="wra-filter-bar">
                                 {{ form_row(form.maxPrice) }}
@@ -64,17 +64,22 @@
                                 {{ form_row(form.minSurface) }}
                             </div>
 
+
+
+
                             <div class="flex-sb-m flex-w p-t-16">
                                 <div class="w-size11">
                                     <!-- Button -->
-                                    <button class="flex-c-m size4 bg7 bo-rad-15 hov1 s-text14 trans-0-4">
+
+                                    <button class="flex-c-m size4 bg7 bo-rad-15 hov1 s-text14 trans-0-4" type="submit">
                                         Filter
                                     </button>
                                 </div>
+                                {{  form_end(form) }}
 
                             </div>
                         </div>
-
+                        <!--
                         <div class="search-product pos-relative bo4 of-hidden">
                             <input class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Search Products...">
 
@@ -82,6 +87,7 @@
                                 <i class="fs-12 fa fa-search" aria-hidden="true"></i>
                             </button>
                         </div>
+                        -->
                     </div>
                 </div>
 
@@ -94,7 +100,7 @@
                             <!-- Block2 -->
                             <div class="block2">
                                 <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-                                    <img src="{{ asset('uploads/images/' ~  immobilier1.image) }}" alt="IMG-PRODUCT">
+                                    <img src="{{ asset('uploads/images/' ~  immobilier1.image) }}" alt="IMG-PRODUCT" style=" height: 200px; width:auto;">
 
                                     <div class="block2-overlay trans-0-4">
                                         <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -110,15 +116,16 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                {# au cas ou l'utilisateur tape sur le titre d'annonce , il sera redirige vers la page de details#}
                                 <div class="block2-txt p-t-20">
                                     <a href="{{ path('details_Immeuble',{id:immobilier1.id ,slug:immobilier1.slug}) }}"  class="block2-name dis-block s-text3 p-b-5">
                                         {{ immobilier1.title }}
                                     </a>
 
                                     <span class="block2-price m-text6 p-r-5">
-										{{ immobilier1.price }}
+										{{ immobilier1.price }} dt - {{  immobilier1.surface}} m2
 									</span>
+
                                 </div>
                             </div>
                             </div>

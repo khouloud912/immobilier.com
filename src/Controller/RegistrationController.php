@@ -17,6 +17,8 @@ class RegistrationController extends AbstractController
     /**
      * @Route("/inscription", name="app_register")
      */
+
+    //cette fonction permet a un utilisateur de remplir un formulaire pour s'enregistrer
     public function register(Request $request, UserPasswordEncoderInterface $passwordEncoder, GuardAuthenticatorHandler $guardHandler, UserAuthenticator $authenticator): Response
     {
         $user = new User();
@@ -31,7 +33,7 @@ class RegistrationController extends AbstractController
                     $form->get('plainPassword')->getData()
                 )
             );
-
+            //$user->setRoles('ROLE_USER');
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($user);
             $entityManager->flush();

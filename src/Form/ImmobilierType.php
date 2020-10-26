@@ -28,11 +28,12 @@ class ImmobilierType extends AbstractType
                 // everytime you edit the Product details
                 'required' => false,
 
+
                 // unmapped fields can't define their validation using annotations
                 // in the associated entity, so you can use the PHP constraint classes
 
             ])
-            // ...
+            //
 
             ->add('surface')
             ->add('rooms')
@@ -43,7 +44,6 @@ class ImmobilierType extends AbstractType
             ->add('price')
         ;
     }
-
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
